@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f8ff;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #062a5c;
+}
+
+h2 {
+  color: #062a5c;
+  margin-top: 35px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  max-width: 700px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px #999;
+  background: white;
+}
